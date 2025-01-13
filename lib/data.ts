@@ -1,0 +1,63 @@
+export const workLinks = [
+  {
+    name: "Undergraduate Research @ Interactive Data Lab",
+    hash: "#research",
+    link: "/research",
+    description:
+      "Incoming Janurary 2025 working under Jeffrey Heer and Hyeok Kim",
+    technologies: [
+      "Data Visualization",
+      "Research",
+      "TypeScript",
+      "JavaScript",
+    ],
+    imageUrl: "/idlCover.png",
+  },
+  {
+    name: "Vietnamese Eucharistic Youth Movement",
+    hash: "#veym",
+    link: "/veym",
+    description: "Full-Stack Software Engineer Intern",
+    technologies: [
+      "C# (.NET Core)",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "ChakraUI",
+      "Directus",
+      "Azure Pipelines",
+      "Azure B2C",
+    ],
+    imageUrl: "/BluSticker2.png",
+  },
+  {
+    name: "PrayerBox!",
+    hash: "#prayerbox",
+    link: "/prayerbox",
+    description: "Passion Project",
+    technologies: [
+      "React Native",
+      "JavaScript",
+      "instantDB",
+      "Firebase",
+      "Tailwind CSS",
+    ],
+    imageUrl: "/splash.png",
+  },
+  // {
+  //   name: "MySpiritualJournal",
+  //   hash: "#msj",
+  //   link: "/msj",
+  //   description: "Passion Project",
+  //   technologies: ["MongoDB", "Express.js", "React", "Node.js", "Redux"],
+  //   imageUrl: "/IMG_A3924934AF22-1.jpeg",
+  // },
+  // {
+  //   name: "Personal Portfolio",
+  //   hash: "#portfolio",
+  //   link: "/portfolio",
+  //   description: "Portfolio Website",
+  //   technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+  //   imageUrl: "/my-notion-face-portrait.png",
+  // },
+];

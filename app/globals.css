@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.first-image {
+  width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintains aspect ratio */
+}
