@@ -3,6 +3,7 @@ import {
   ChevronDownIcon,
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 interface ProjectPageProps {
   title: string;
@@ -47,7 +48,7 @@ export default function ProjectPage({
         </div>
         <div className="flex justify-center mt-8 mb-8">
           {images.length > 0 && (
-            <img
+            <Image
               src={images[0]}
               alt={`${title} screenshot`}
               className="w-full max-w-md rounded-lg shadow-lg"

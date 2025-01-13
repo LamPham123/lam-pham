@@ -24,8 +24,8 @@ const Project: React.FC<ProjectProps> = ({
       <Image
         src={imageUrl}
         alt={`${name} project thumbnail`}
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: "cover" }}
         className="transition-all duration-300 transform scale-70"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />

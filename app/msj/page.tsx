@@ -3,6 +3,7 @@ import ProjectPage from "@/app/components/ProjectIntro";
 import "@/app/globals.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Image from "next/image";
 
 interface Feature {
   title: string;
@@ -145,7 +146,7 @@ const FeatureAccordion = ({
                 <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   {feature.photos.map((photo, idx) => (
                     <div key={idx} className="w-full">
-                      <img
+                      <Image
                         src={photo}
                         alt={`Feature photo ${idx + 1}`}
                         className="w-full h-auto object-cover rounded-lg shadow-md"
