@@ -50,6 +50,8 @@ export default function ProjectPage({
           {images.length > 0 && (
             <Image
               src={images[0]}
+              width={640}
+              height={640}
               alt={`${title} screenshot`}
               className="w-full max-w-md rounded-lg shadow-lg"
             />

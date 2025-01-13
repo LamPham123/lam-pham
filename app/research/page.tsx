@@ -4,20 +4,20 @@ import "@/app/globals.css";
 import { motion } from "framer-motion";
 
 export default function Research() {
-  const containerAnimation = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
-  };
+  // const containerAnimation = {
+  //   hidden: { opacity: 0 },
+  //   show: {
+  //     opacity: 1,
+  //     transition: {
+  //       staggerChildren: 0.2,
+  //     },
+  //   },
+  // };
 
-  const itemAnimation = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 },
-  };
+  // const itemAnimation = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   show: { opacity: 1, y: 0 },
+  // };
 
   return (
     <div className="relative bg-gray-50">
@@ -28,12 +28,7 @@ export default function Research() {
           animate={{ y: 0, opacity: 1 }}
         >
           <ProjectPage
-            title={
-              <>
-                Undergraduate Research
-                <br />@ Interactive Data Lab
-              </>
-            }
+            title="Undergraduate Research @ Interactive Data Lab"
             description="Currently developing Erie2, a versatile data sonification toolkit designed for diverse interactive environments. This project seeks to broaden support for interactive features and a variety of audio platforms, empowering researchers, artists, and technologists to make data sonification more accessible, expressive, and impactful. Incoming January 2025."
             images={["/idl.png", "/images/veym2.png"]}
             technologies={[
