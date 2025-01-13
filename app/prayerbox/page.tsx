@@ -28,7 +28,6 @@ const features: Feature[] = [
       "75% of deletions were initiated by users to remove inactive or problematic accounts, while 25% were performed by admins.",
       "95% reduction in support tickets related to account deletion requests.",
       "**Testing Evidence**:",
-      "**Testing Evidence**:",
     ],
     photos: [
       "pb1.png",
